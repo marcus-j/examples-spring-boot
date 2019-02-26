@@ -1,1 +1,1 @@
-# examples-spring-boot
+# spring-boot-examples
