@@ -1,16 +1,14 @@
 package de.marcusjanke.examples.spring.boot.hello;
 
-public class MyBean {
+class MyBean {
 
 	private final String name;
 
-	public MyBean(String name) {
-		super();
+	MyBean(String name) {
 		this.name = name;
 	}
 
-	public String getName() {
+	String getName() {
 		return name;
 	}
-
 }
