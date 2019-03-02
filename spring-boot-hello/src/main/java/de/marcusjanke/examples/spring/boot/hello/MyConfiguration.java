@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class MyConfiguration {
 	
-	public final static String NAME = "Dude";
+	static final String NAME = "Dude";
 
 	@Bean
 	public MyBean myBean() {
