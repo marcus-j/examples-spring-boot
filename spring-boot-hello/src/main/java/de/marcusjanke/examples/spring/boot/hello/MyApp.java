@@ -8,12 +8,12 @@ import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
 public class MyApp {
-	
-	public static Logger logger = LoggerFactory.getLogger(MyApp.class);
+
+    private static Logger logger = LoggerFactory.getLogger(MyApp.class);
 
     public static void main(String[] args) {
         ApplicationContext ctx = SpringApplication.run(MyApp.class, args);
-        MyBean myBean = (MyBean)ctx.getBean(MyBean.class);
-        logger.info(String.format("Hello %s", myBean.getName()));
+        MyBean myBean = ctx.getBean(MyBean.class);
+        logger.info("Hello {}", myBean.getName());
     }
 }
