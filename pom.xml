@@ -20,6 +20,7 @@
         <module>spring-boot-rest-security</module>
         <module>spring-boot-camel</module>
         <module>spring-boot-hello-kotlin</module>
+        <module>spring-boot-test-config</module>
     </modules>
 
     <dependencyManagement>
