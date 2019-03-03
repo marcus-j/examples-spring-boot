@@ -19,6 +19,7 @@
         <module>spring-boot-rest</module>
         <module>spring-boot-rest-security</module>
         <module>spring-boot-camel</module>
+        <module>spring-boot-hello-kotlin</module>
     </modules>
 
     <dependencyManagement>
