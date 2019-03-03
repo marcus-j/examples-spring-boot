@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class MyConfigurationTest {
 	
 	@Autowired
-	public MyBean myBean;
+	private MyBean myBean;
 
 	@Test
 	public void testMyConfiguration() {
