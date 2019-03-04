@@ -1,4 +1,4 @@
-# Simple Spring Boot Example
+# Simple Spring Boot REST Example
 
 Build: `mvn clean package`
 

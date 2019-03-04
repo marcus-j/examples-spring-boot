@@ -1,4 +1,4 @@
-# Simple Spring Boot Example
+# Simple Spring Boot Example with Apache Camel integration
 
 Build: `mvn clean package`
 
