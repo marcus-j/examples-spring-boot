@@ -12,6 +12,10 @@
 	<packaging>jar</packaging>
 	<name>spring-boot-rest-security</name>
 
+	<properties>
+		<spring-boot.version>1.5.19.RELEASE</spring-boot.version>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

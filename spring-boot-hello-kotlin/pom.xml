@@ -12,8 +12,6 @@
     <artifactId>spring-boot-hello-kotlin</artifactId>
 
     <properties>
-        <!-- extended Kotlin support in Spring Boot was introduced with SB2 -->
-        <spring-boot.version>2.1.3.RELEASE</spring-boot.version>
         <kotlin.version>1.3.20</kotlin.version>
     </properties>
 
@@ -46,13 +44,11 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
-            <version>3.11.1</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
