@@ -23,6 +23,7 @@
         <module>spring-boot-camel</module>
         <module>spring-boot-hello-kotlin</module>
         <module>spring-boot-test-config</module>
+        <module>spring-boot-mustache-kotlin</module>
     </modules>
 
     <dependencyManagement>
