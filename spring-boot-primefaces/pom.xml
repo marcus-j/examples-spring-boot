@@ -27,6 +27,13 @@
             <artifactId>primefaces-spring-boot-starter</artifactId>
             <version>${primefaces-spring-boot-starter.version}</version>
         </dependency>
+        <!-- This is only needed if you wish to use a specific theme which has to be
+            specified in the application.yml -->
+        <dependency>
+            <groupId>org.primefaces.themes</groupId>
+            <artifactId>all-themes</artifactId>
+            <version>1.0.10</version>
+        </dependency>
         <dependency>
             <groupId>javax.enterprise</groupId>
             <artifactId>cdi-api</artifactId>
@@ -50,6 +57,16 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <repositories>
+        <!-- This is only needed because the above mentioned all-themes dependency has
+            invalid meta data in Maven Central -->
+        <repository>
+            <id>primefaces-maven-repository</id>
+            <name>PrimeFaces Maven Repository</name>
+            <url>http://repository.primefaces.org</url>
+        </repository>
+    </repositories>
 
     <build>
         <plugins>
