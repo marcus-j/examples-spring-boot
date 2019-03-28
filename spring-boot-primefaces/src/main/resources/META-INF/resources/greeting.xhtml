@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+    <title>Say Hi to the World!</title>
+</h:head>
+
+<h:body>
+    <h:form id="user-form">
+        <p:panel header="Say Hi to the World!">
+            <h:panelGrid columns="2" cellpadding="4">
+                <h:outputText value="First Name: "/>
+                <p:inputText id="first-name" value="#{user.firstName}"/>
+
+                <h:outputText value="Last Name: "/>
+                <p:inputText id="last-name" value="#{user.lastName}"/>
+
+                <p:commandButton id="submit" value="Submit"
+                                 update="greeting-panel"
+                                 oncomplete="PF('sayHiDialog').show()"/>
+            </h:panelGrid>
+        </p:panel>
+        <p:dialog header="Greeting" widgetVar="sayHiDialog"
+                  modal="true" resizable="false">
+            <h:panelGrid id="greeting-panel" columns="1" cellpadding="4">
+                <h:outputText value="#{user.sayHi()}"/>
+            </h:panelGrid>
+        </p:dialog>
+    </h:form>
+</h:body>
+</html>
