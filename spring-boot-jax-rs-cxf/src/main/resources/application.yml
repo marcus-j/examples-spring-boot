@@ -1,0 +1,5 @@
+cxf:
+  path: /api
+  jaxrs:
+    classes-scan: true
+    classes-scan-packages: de.marcusjanke.examples.spring.jaxrs.resources,org.codehaus.jackson.jaxrs
