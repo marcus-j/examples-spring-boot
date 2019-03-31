@@ -27,6 +27,7 @@
         <module>spring-boot-mustache-kotlin</module>
         <module>spring-boot-primefaces</module>
         <module>spring-boot-jax-rs-cxf</module>
+        <module>spring-boot-webflux</module>
     </modules>
 
     <dependencyManagement>

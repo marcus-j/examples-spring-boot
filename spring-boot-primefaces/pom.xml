@@ -14,7 +14,6 @@
     <properties>
         <joinfaces.version>3.3.0-rc2</joinfaces.version>
         <primefaces-spring-boot-starter.version>4.0.3</primefaces-spring-boot-starter.version>
-        <lombok.version>1.18.6</lombok.version>
     </properties>
 
     <dependencies>
