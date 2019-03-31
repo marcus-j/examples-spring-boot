@@ -28,6 +28,7 @@
         <module>spring-boot-primefaces</module>
         <module>spring-boot-jax-rs-cxf</module>
         <module>spring-boot-webflux</module>
+		<module>spring-boot-webflux-security</module>
     </modules>
 
     <dependencyManagement>
