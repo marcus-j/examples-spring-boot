@@ -29,6 +29,7 @@
         <module>spring-boot-jax-rs-cxf</module>
         <module>spring-boot-webflux</module>
 		<module>spring-boot-webflux-security</module>
+        <module>spring-boot-rest-jpa-support</module>
     </modules>
 
     <dependencyManagement>
