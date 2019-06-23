@@ -30,6 +30,7 @@
         <module>spring-boot-webflux</module>
 		<module>spring-boot-webflux-security</module>
         <module>spring-boot-rest-jpa-support</module>
+        <module>spring-boot-web-mvc</module>
     </modules>
 
     <dependencyManagement>
